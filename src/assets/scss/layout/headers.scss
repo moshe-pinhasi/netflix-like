@@ -1,0 +1,16 @@
+.header-primary {
+  color: $color-white;
+  backface-visibility: hidden;
+  margin-bottom: 2rem;
+  font-family: $font-title;
+
+  &.header-primary--main {
+    display: block;
+    font-size: 3rem;
+  }
+
+  &.header-primary--sub {
+    display: block;
+    font-size: 1rem;
+  }
+}
